@@ -45,7 +45,7 @@ public class JettyMain {
 	public static String startServer(int port) throws Exception {
 		server = new Server(port);
 		ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
-		context.setContextPath("/");
+		context.setContextPath("/api/v1/");
 		ServletHolder holder = new ServletHolder(org.glassfish.jersey.servlet.ServletContainer.class);
 		holder.setInitParameter(ServerProperties.PROVIDER_PACKAGES,RESOURCE_PACKAGE);
 		holder.setInitParameter(ServerProperties.JSON_PROCESSING_FEATURE_DISABLE, "false");
