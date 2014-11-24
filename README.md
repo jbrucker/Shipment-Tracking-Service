@@ -12,24 +12,24 @@ Shipment tracking system is used for the shipping and the observing of product o
 ##Use Cases
 *   Customer
     * Reciever : ( Android Application )
-        -  Authenticate Not Required
+        -  <i>Authenticate Not Required</i>
         ```
           I can check shipment status using shipment number.
         ```
     * Courier : ( Android Application )
-        - Authenticate Required
+        - <i>Authenticate Required</i>
         ```
           I can create shipment
           I can check all the shipment that I create
           I can cancel shipment
         ```
-        - Authenticate Not Required
+        - <i>Authenticate Not Required</i>
         ```
           I can check shipment status using shipment number.
           I can check the shipment cost by sending item information
         ```
 * Delivery Person : ( Web Application ) 
-    -   Authenticate Required 
+    -   <i>Authenticate Required</i>
     ```
       I can edit shipment status
     ```
@@ -46,19 +46,19 @@ Shipment tracking system is used for the shipping and the observing of product o
   	 /shipments/calculate GET
     ```
 	* Reciever
-      ```
-    		/shipments/{id} GET
-      ```
+  ```
+  /shipments/{id} GET
+  ```
 	* Courier
-      ```
-    		/shipments GET
-    		/shipments/{id} GET, POST, DELETE
-      ```
+  ```
+    /shipments GET
+    /shipments/{id} GET, POST, DELETE
+  ```
 * Delivery Person
-    ```
-  	   /shipments GET
-  	   /shipments/{id} GET, PUT
-    ```
+  ```
+    /shipments GET
+    /shipments/{id} GET, PUT
+  ```
 
 ## API Definition
 
