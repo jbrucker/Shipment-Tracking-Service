@@ -46,20 +46,20 @@ Shipment tracking system is used for the shipping and the observing of product o
   	/shipments/calculate GET
     ```
 	* Reciever
-        ```
-        /shipments/{id} GET
-        ```
+    ```
+    /shipments/{id} GET
+    ```
 	* Courier
-        ```
-        /shipments GET
-        /shipments/{id} GET, POST, DELETE
-        ```
+    ```
+    /shipments GET
+    /shipments/{id} GET, POST, DELETE
+    ```
 * Delivery Person
 
-      ```
-      /shipments GET
-      /shipments/{id} GET, PUT
-      ```
+    ```
+    /shipments GET
+    /shipments/{id} GET, PUT
+    ```
 
 ## API Definition
 
