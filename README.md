@@ -37,28 +37,28 @@ Shipment tracking system is used for the shipping and the observing of product o
 ##Functions
 * OAuth Request
   ```
-  	/google 
-  	/oauth2callback
+  /google 
+  /oauth2callback
   ```
 
 * Customer
     ```
-  	 /shipments/calculate GET
+  	/shipments/calculate GET
     ```
 	* Reciever
-    ```
-    /shipments/{id} GET
-    ```
+      ```
+      /shipments/{id} GET
+      ```
 	* Courier
-    ```
+      ```
       /shipments GET
       /shipments/{id} GET, POST, DELETE
-    ```
+      ```
 * Delivery Person
 
       ```
-       /shipments GET
-       /shipments/{id} GET, PUT
+      /shipments GET
+      /shipments/{id} GET, PUT
       ```
 
 ## API Definition
