@@ -34,7 +34,7 @@ Shipment tracking system is used for the shipping and the observing of product o
       I can edit shipment status
     ```
 
-##Function
+##Functions
 * OAuth Request
   ```
   	/google 
@@ -55,10 +55,10 @@ Shipment tracking system is used for the shipping and the observing of product o
     /shipments/{id} GET, POST, DELETE
   ```
 * Delivery Person
-    ```
-     /shipments GET
-     /shipments/{id} GET, PUT
-    ```
+      ```
+       /shipments GET
+       /shipments/{id} GET, PUT
+      ```
 
 ## API Definition
 
