@@ -13,36 +13,52 @@ Shipment tracking system is used for the shipping and the observing of product o
 *   Customer
     * Reciever : ( Android Application )
         -  Authenticate Not Required
-                I can check shipment status using shipment number.
+        ```
+          I can check shipment status using shipment number.
+        ```
     * Courier : ( Android Application )
         - Authenticate Required
-                I can create shipment
-                I can check all the shipment that I create
-                I can cancel shipment
+        ```
+          I can create shipment
+          I can check all the shipment that I create
+          I can cancel shipment
+        ```
         - Authenticate Not Required
-                I can check shipment status using shipment number.
-                I can check the shipment cost by sending item information
+        ```
+          I can check shipment status using shipment number.
+          I can check the shipment cost by sending item information
+        ```
 * Delivery Person : ( Web Application ) 
     -   Authenticate Required 
-            I can edit shipment status
+    ```
+      I can edit shipment status
+    ```
 
 ##Function
 * OAuth Request
+  ```
   	/google 
   	/oauth2callback
+  ```
 
 * Customer
-  	/shipments/calculate GET
+    ```
+  	 /shipments/calculate GET
+    ```
 	* Reciever
+      ```
     		/shipments/{id} GET
+      ```
 	* Courier
+      ```
     		/shipments GET
     		/shipments/{id} GET, POST, DELETE
+      ```
 * Delivery Person
-  	/shipments GET
-  	/shipments/{id} GET, PUT
-
-
+    ```
+  	   /shipments GET
+  	   /shipments/{id} GET, PUT
+    ```
 
 ## API Definition
 
