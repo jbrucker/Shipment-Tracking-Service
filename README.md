@@ -63,7 +63,7 @@ Shipment tracking system is used for the shipping and the observing of product o
 
 ## API Specification Document
 
-[See more](https://github.com/ixistic/Shipment-Tracking-Service/wiki/API)
+* See it in [API wiki](https://github.com/ixistic/Shipment-Tracking-Service/wiki/API)
 
 ## Software Design
 <i>coming soon</i>
