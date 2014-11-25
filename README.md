@@ -2,14 +2,14 @@
 
 Shipment tracking system is used for the shipping and the observing of product order on the move that can manage order on the network for real time.
 
-##Features
+## Features
 * Online Shipment
 * Online Track Shipment
 * Android Application
 * Web Application (use AngularJS)
 * OAuth Authentication
 
-##Use Cases
+## Use Cases
 *   Customer
     * Reciever : ( Android Application )
         -  <i>Authenticate Not Required</i>
@@ -34,7 +34,7 @@ Shipment tracking system is used for the shipping and the observing of product o
       I can edit shipment status
     ```
 
-##Functions
+## Functions
 * OAuth Request
   ```
   /google 
@@ -67,6 +67,17 @@ Shipment tracking system is used for the shipping and the observing of product o
 
 ## Software Design
 <i>coming soon</i>
+
+## Requirements
+
+* JavaSE 1.7
+* Jersey
+* Jetty
+* Jpa
+* Json
+* Mysql
+* OAuth
+* Android SDK
 
 ## Other Documents
 
