@@ -61,21 +61,7 @@ Shipment tracking system is used for the shipping and the observing of product o
     /shipments/{id} GET, PUT
     ```
 
-## API Definition
-
-* Get all shipments
- 
- 
-  | Request       	|
-  | ------------- 	|
-  | GET /shipments    |
-
-
-
-  | Response JSON      	| Response XML       	|
-  | ------------- 	|:-------------:	|
-  | {"shipments": [{ … },{ … }]}   | coming soon|
-
+## API Specification Document
 
 [See more](https://github.com/ixistic/Shipment-Tracking-Service/wiki/API)
 
