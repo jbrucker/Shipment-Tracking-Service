@@ -63,7 +63,7 @@ Shipment tracking system is used for the shipping and the observing of product o
 
 ## API Specification Document
 
-* See it in [API wiki](https://github.com/ixistic/Shipment-Tracking-Service/wiki/API)
+* See it in [API wiki](https://github.com/ixistic/Shipment-Tracking-Service/wiki/API-Specification-Document)
 
 ## Software Design
 <i>coming soon</i>
@@ -81,7 +81,7 @@ Shipment tracking system is used for the shipping and the observing of product o
 
 ## Other Documents
 
-* [BDD](https://github.com/ixistic/Shipment-Tracking-Service/wiki/BDD) - Behavior-Driven Development
+* [BDD](https://github.com/ixistic/Shipment-Tracking-Service/wiki/Behavior-Driven-Development) - Behavior-Driven Development
 
 
 ## Members
